@@ -1,0 +1,38 @@
+/* font-family: 'Emilys Candy', cursive;
+font-family: 'Lemonada', cursive; */
+
+body {
+    background: #f5d9d5;
+    font-family: 'Lemonada', cursive;
+}
+
+#mainNav .navbar-brand{
+    color: #EA1c2c;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Emilys Candy', cursive;
+}
+
+#mainNav .nav-link {
+    color: white;
+}
+
+#mainNav .nav-link:hover {
+    color: #EA1c2c;
+}
+
+#headingGroup span {
+    color: #EA1c2c;
+}
+
+#headingGroup h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 2em;
+        font-weight: 100;
+}
+}
